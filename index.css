@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+.main{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100%;
     align-content: center;
     display: flexbox;
     right: auto;
@@ -13,7 +16,11 @@ main{
 }
 .fundo {
     background: url(img/fundobg.png);
+    background-repeat: no-repeat;
+    justify-content: center;
     display: flex;
+    background-position: center;
+    background-size: cover;
 }
 
 .cabecalho {
@@ -42,6 +49,7 @@ main{
 }
 
 .title3 {
+    margin-top: 20px;
     top: 403px;
     font-family: 'Lato';
     font-style: normal;
@@ -52,6 +60,7 @@ main{
 }
 
 .title4 {
+    margin-top: 80px;
     top: 487px;
     font-family: 'Lato';
     font-style: normal;
@@ -63,5 +72,23 @@ main{
 
 .box-imgs {
     text-align: center;
-    display:inline-flex;
+    display:flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.projet1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1.5s all;
+}
+.projet3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1.5s all;
+}
+.projet2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1.5s all;
 }
